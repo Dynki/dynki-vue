@@ -12,6 +12,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    width: 88%;
 
     min-height: 378px;
     background-color: #ffffff;
@@ -40,6 +41,7 @@
     nz-form-item {
         width: 100%;
     }
+
 }
 
 dyn-signup {
@@ -57,7 +59,7 @@ dyn-signup {
     background-color: #ffffff;
     padding: 36px!important;
 
-    nz-form-item {
+    .ant-form-item {
         width: 100%;
     }
 
