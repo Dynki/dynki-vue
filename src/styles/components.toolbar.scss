@@ -1,0 +1,28 @@
+.toolbar {
+    margin: 20px 25px 0 5px;
+
+    &__user-profile {
+        @include no-select;
+        
+        background-color: #3095de;
+        color: #ffffff;
+        font-family: $font-family;
+        font-size: 18px;
+
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-right: 17px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 25px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
